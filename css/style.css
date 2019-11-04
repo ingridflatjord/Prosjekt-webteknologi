@@ -11,20 +11,20 @@ header {
   background-size: cover;
 }
 
-.navBar {
+.topnav {
   width: 100%;
   position: relative;
   margin-top: 60px;
   font-family: arial;
 }
 
-.logo {
+.topnav {
   height: 120px;
   width: auto;
   margin-top: 10px;
 }
 
-.main-navBar ul {
+.main-topnav ul {
   width: 1000px;
   margin: 0 auto;
   text-align: justify;
