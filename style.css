@@ -12,8 +12,6 @@ h1 {
   top: 100px;
   left: 320px;
 
-  font-family: Barlow Semi Condensed;
-  font-style: normal;
   font-weight: 300;
   font-size: 95px;
   line-height: 115px;
@@ -34,8 +32,6 @@ ul {
   left: 154px;
   top: 320px;
 
-  font-family: Barlow Semi Condensed;
-  font-style: normal;
   font-weight: 200;
   font-size: 64px;
   line-height: 77px;
@@ -55,8 +51,6 @@ iframe {
   top: 340px;
   left: 60px;
 
-  font-family: Barlow Semi Condensed;
-  font-style: normal;
   font-weight: 200;
   font-size: 32px;
   line-height: 38px;
@@ -68,8 +62,7 @@ iframe {
   position: absolute;
   left: 60px;
   bottom: 230px;
-
-  font-family: Barlow Semi Condensed;
+  
   font-size: 30px;
   line-height: 40px;
 
