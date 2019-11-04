@@ -70,3 +70,12 @@ iframe {
 }
 
 /* forside */
+#instagram {
+  width:33px;
+  height:25px;
+}
+
+#facebook {
+  width: 22px;
+  height:22px;
+}
