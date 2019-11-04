@@ -70,6 +70,10 @@ iframe {
 }
 
 /* forside */
+.buttons {
+  display: inline;
+}
+
 #instagram {
   width:33px;
   height:25px;
