@@ -1,0 +1,57 @@
+body {
+  font-family: Barlow Semi Condensed;
+  font-style: normal;
+  position: absolute;
+  width: 1096px;
+  height: 867px;
+}
+
+h1 {
+  position: absolute;
+  top: 100px;
+  left: 322px;
+
+  width: 451px;
+  height: 135px;
+
+  font-family: Barlow Semi Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 115px;
+  text-align: center;
+
+  color: #4B5E45;
+}
+
+#infotekst {
+  position: absolute;
+  top: 355px;
+  left: 59px;
+  width: 995px;
+  height: 325px;
+
+  font-family: Barlow Semi Condensed;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #4B5E45;
+}
+
+#mail, #tlf {
+  position: absolute;
+  left: 59px;
+  bottom: 147px;
+  width: 659px;
+  height: 119px;
+
+  font-family: Barlow Semi Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #A0C693;
+}
