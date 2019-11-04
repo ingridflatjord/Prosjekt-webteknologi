@@ -3,9 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Åpningstider | Café Saldo</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="icon" href="../images/favicon.png" type="image/png">
   </head>
   <body>
+    <h1>Åpningstider</h1>
+    <ul id="åpningstider">
+      <li>Mandag - Fredag: <b>08.30 - 17.00</b></li>
+      <li>Lørdag: <b>10.00 - 15.00</b></li>
+      <li>Søndag: <b>Stengt</b></li>
+    </ul>
 
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <script>
+    function myMap() {
+      let map = {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+    }
+    let maps = new google.maps.Map(document.getElementById("googleMap"),map);
+    }
+    </script>
+
+    <script src="https://www.google.com/maps/d/u/0/viewer?hl=no&ll=63.424565250484996%2C10.406324500997925&z=12&mid=1PfhQwaiDvI7ETMWZfx5NHXTzN824KvVJ">
+    </script>
   </body>
 </html>
