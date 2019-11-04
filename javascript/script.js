@@ -1,4 +1,4 @@
-// Automatisk slideshow av 5 ulike bilder på forsiden av nettsiden. Hverrt bilde vises i 5 sek.
+// Automatisk slideshow av 5 ulike bilder på forsiden av nettsiden. Hvert bilde vises i 5 sek.
 let images = 0
 
 function slideshow() {
