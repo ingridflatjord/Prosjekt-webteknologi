@@ -11,36 +11,33 @@ header {
   background-size: cover;
 }
 
-.topnav {
+.topbar {
   width: 100%;
-  position: relative;
-  margin-top: 60px;
-  font-family: arial;
-}
-
-.topnav {
-  height: 120px;
-  width: auto;
-  margin-top: 10px;
-}
-
-.main-topnav ul {
-  width: 1000px;
   margin: 0 auto;
-  text-align: justify;
-  line-height: 70px;
+  position: fixed;
 }
 
-.main-navBar li {
+.logo {
+  height: 120px;
+  margin: auto;
+  width: auto;
+  vertical-align: middle;
+}
+
+.main-topbar {
+  margin-top: 20px;
+}
+
+.main-topbar li {
   display: inline-block;
   list-style: none;
-  margin-top: 60px;
+  margin-left: 50px;
 }
 
-.main-navBar li a {
+.main-topbar li a {
   color: #4B5E45;
   text-decoration: none;
   font-size: 25px;
-  margin: 10px 100px;
   font-family: arial, sans-serif;
+  margin: 10px 73px;
 }
