@@ -29,11 +29,11 @@ ul {
   list-style: none;
 
   position: absolute;
-  left: 154px;
+  left: 155px;
   top: 320px;
 
   font-weight: 200;
-  font-size: 64px;
+  font-size: 40px;
   line-height: 77px;
 
   color: #4B5E45;
@@ -41,8 +41,8 @@ ul {
 
 iframe {
   position: absolute;
-  bottom: 10px;
-  left: 155px;
+  bottom: 30px;
+  left: 190px;
 }
 
 /* informasjon */
