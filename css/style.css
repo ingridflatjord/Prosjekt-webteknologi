@@ -25,7 +25,8 @@ header {
 }
 
 .main-topbar {
-  margin-top: 20px;
+  margin-top: 0px;
+  background: rgba(196, 196, 196, 0.21)
 }
 
 .main-topbar li {
@@ -37,7 +38,7 @@ header {
 .main-topbar li a {
   color: #4B5E45;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Barlow Semi Condenced', Arial;
-  margin: 10px 73px;
+  margin: 10px 75px;
 }
