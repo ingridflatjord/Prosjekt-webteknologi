@@ -25,7 +25,7 @@ h1 {
   width: 80%;
   margin: auto;
   align-items: center;
-  text-decoration: none;
+  list-style-type: none;
 
   color: #4B5E45;
 }
