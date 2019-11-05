@@ -1,0 +1,27 @@
+body {
+  background-color: #DDDDDD;
+}
+
+article {
+  text-align: left;
+  font-family: Georgia, Verdana;
+  font-size: 18px;
+  color: #323232;
+  width: 80ch;
+  margin: auto;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h2 {
+  font-size:
+}
+
+.box {
+  border-style: groove;
+  box-shadow: 6px 5px #DCDCDC;
+  padding: 20px;
+}
