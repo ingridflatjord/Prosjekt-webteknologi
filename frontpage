@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forside | Café Saldo</title>
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="topnav">
+          <ul class="main-topnav">
+            <li><a href="menu.html"> Meny </a></li>
+            <li><a href="openinghours.html"> Åpningstider </a></li>
+            <li><img src="images/logo.png" class="logo" alt="logo"></li>   
+            <li><a href="information.html"> Informasjon </a></li>
+            <li><a href="frontpage.html"> Forside </a></li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+        <div class="images">
+          <img class="front_images" src="../images/front_image1.png" alt="Front image 1" style=width:100%>
+          <img class="front_images" src="../images/front_image2.png" alt="Front image 2" style=width:100%>
+          <img class="front_images" src="../images/front_image3.png" alt="Front image 3" style=width:100%>
+          <img class="front_images" src="../images/front_image4.png" alt="Front image 4" style=width:100%>
+          <img class="front_images" src="../images/front_image5.png" alt="Front image 5" style=width:100%>
+        </div>
+
+    <!-- instagram og facebook knapper -->
+      <form class="buttons" action="https://www.instagram.com/cafesaldo/">
+          <input id="instagram" type="image" src="../images/instagram.png" alt="Instagram">
+        </form>
+
+        <form class="buttons" action="https://www.instagram.com/cafesaldo/">
+        <input id="facebook" type="image" src="../images/facebook.png" alt="Facebook">
+        </form>
+    
+    <script type="text/javascript" src="../javascript/script.js"></script>
+  </body>
+</html>
