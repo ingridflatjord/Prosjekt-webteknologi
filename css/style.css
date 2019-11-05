@@ -130,14 +130,9 @@ iframe {
   display: inline;
 }
 
-#instagram {
-  width:33px;
-  height:25px;
-}
-
-#facebook {
-  width: 22px;
-  height:22px;
+#instagram, #facebook {
+  width:2%;
+  height:2%;
 }
 
 
