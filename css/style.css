@@ -24,6 +24,8 @@ h1 {
   line-height: 38px;
   width: 80%;
   margin: auto;
+  align-items: center;
+  text-decoration: none;
 
   color: #4B5E45;
 }
