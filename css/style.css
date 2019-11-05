@@ -33,15 +33,26 @@ header {
 .main-topbar li {
   display: inline-block;
   list-style: none;
-  margin-left: 50px;
+  margin-left: 34px;
 }
 
 .main-topbar li a {
   color: #4B5E45;
   text-decoration: none;
   font-size: 30px;
-  font-family: 'Barlow Semi Condenced', Arial;
-  margin: 10px 75px;
+  font-family: 'Barlow Semi Condensed', Arial;
+  margin: 10px 74px;
+}
+
+.front_images {
+  display: none;
+  animation-name: front_images;
+  animation-duration: 3s;
+}
+
+@keyframes front_images {
+  from {opacity: 0.5}
+  to {opacity: 1}
 }
 
 body {
