@@ -1,12 +1,6 @@
-body {
-  background-color: #DDDDDD;
-}
-
 article {
-  text-align: left;
-  font-family: Georgia, Verdana;
+  font-family: Georgia, Verdana, serif;
   font-size: 18px;
-  color: #323232;
   width: 80ch;
   margin: auto;
 }
@@ -16,12 +10,22 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  font-size:
-}
-
 .box {
   border-style: groove;
-  box-shadow: 6px 5px #DCDCDC;
   padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#footer-logo {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid;
+  padding: 5px;
 }
