@@ -2,9 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>P2: Project Design</title>
-    <link rel="stylesheet" type="text/css" href="../P3_design_55/p3.css">
+    <title>P3: Project Design</title>
+    <link rel="stylesheet" type="text/css" href="p3.css">
   </head>
+
   <body>
     <article>
       <header>
@@ -17,7 +18,7 @@
         <h2>1. Document Details</h2>
       </header>
         <p>Ola Fiske, Ingrid Flatjord, Hans Edvard Hafskolt, Jasmina Elizabeth Naseri og Synne Fuglesang Sæther</p>
-        <p>IT2805, 8.oktober 2019</p>
+        <p>IT2805, 10.november 2019</p>
     </div>
 
       <br>
@@ -28,305 +29,191 @@
       </header>
         <p>Client name:  NTNU</p>
         <p>Website Name: Café Saldo</p>
-        <p>Link to our website: <a href="https://facebook.com"></a></p>
+        <p>Link to our website: <a href="https://www.instagram.com/cafesaldo/?x=14&y=9">Café Saldo</a></p>
     </div>
 
       <br>
 
     <div class="box">
       <header>
-          <h2>Design Changes</h2>
+          <h2>3. Design Changes</h2>
       </header>
-        <p>We have done some changes, after both feedback from our assistent, and some things we found out in the process of coding.</p>
+        <p>We have done some changes, after both feedback from our supervisor, and some things we found out in the process of coding.</p>
 
-        <h3>Changes to frontpage.html</h3>
-            <p>Initially we did not think about having a footer with contact information and opening hours, but we got some inspiration from other websites and then we found out we wanted to have footer including this. It makes the site more user-friendly and nice. We removed the social media icons we had and put it in the footer. We made an own html page called footer.html. We did the same for the topbar, and called it topbar.html. We also included 5 pictures in the front page, instead of 3-4. Other than that, the front page is as similar to how we imagined it would be.</p>
+        <h4>Changes to frontpage.html</h4>
+        <p>Initially we did not think about having a footer with contact information and opening hours, but we got some inspiration from other websites and then we found out we wanted to have footer including this. It makes the site more user-friendly and nice. We removed the social media icons we had and put it in the footer. We made an own html page called footer.html. We did the same for the topbar, and called it topbar.html. We also included 5 pictures in the front page, instead of 3-4. Other than that, the front page is as similar to how we imagined it would be.</p>
 
-        <h3>Changes to openinghours.html</h3>
-            <p>We centered the opening hours instead of having it on the same line as the map. </p>
+        <h4>Changes to openinghours.html</h4>
+        <p>We centered the opening hours instead of having it on the same line as the map. </p>
 
-        <h3>Changes to course.part and topbar.part</h3>
+        <h4>Changes to course.part and topbar.part</h4>
 
+        <h4>Changes to topbar.js, frontpage.js, courses.js, information.js</h4>
+        <p>We decided to make only one JavaScript file instead of several. We wanted to compile it into one file to have fewer HTTP requests. We wanted to make as few requests to the server to improve the performance of the page. We called the JavaScript file script.js.</p>
 
-        <h3>Changes to topbar.js, frontpage.js, courses.js, information.js</h3>
-            <p>We decided to make only one JavaScript file instead of several. We wanted to compile it into one file to have fewer HTTP requests. We wanted to make as few requests to the server to improve the performance of the page. We called the JavaScript file script.js.</p>
+        <h4>Changes to style.css</h4>
+        <p>We have one main css for the different pages, but we decided to make one external stylesheet for the topbar and footer. We thought this would make it a bit more organized and clean.</p>
 
-        <h3>Changes to style.css</h3>
-            <p>We have one main css for the different pages, but we decided to make one external stylesheet for the topbar and footer. We thought this would make it a bit more organized and clean.</p>
-
-        <h3>Additional</h3>
-            <p>We have added footer.html as mentioned above.</p>
-            <p>We added some pictures for the front page called frontpage1,2,3,4,5.</p>
-            <p>Furthermore, we added a avocado favicon on our page, called favicon.png</p>
-            <p>We also added pictures of the logo and the social media buttons</p>
-
-
-        <h3>Changes to JavaScript minimum requirements</h3>
-            <p></p>
+        <h4>Additional</h4>
+        <ul>
+          <li>We have added footer.html and topbar.html as mentioned above.</li>
+          <li>When discussing the top bar, we decided that when scaling the site, the original top bar should dissappear and a hamburger icon/button appears. The hamburger button includes the different alternatives on the top bar. Our logo will float to the left side of the page while the rest of the top bar goes inside the hamburger button.</li>
+          <li>We added some pictures for the front page called front_image1,2,3,4,5.png</li>
+          <li>Furthermore, we added a avocado favicon on our page, called favicon.png</li>
+          <li>We also added pictures of the logo and the social media buttons</li>
+        </ul>
+        <h4>Changes to JavaScript minimum requirements</h4>
+        <p>We had to change and add some JavaScript applications since the email-feature did not include JavaScript. We then decided to </p>
     </div>
+
+    <br>
 
     <div class="box">
       <header>
-        <h2>Updated plan</h2>
+        <h2>4. Updated plan</h2>
       </header>
           <p>All of the files is gathered inside a folder <i>project</i> </p>
-              <p> List of files and folders: </p>
-              <p>1. HTML</p>
-                <ul>
-                  <li>frontpage.html</li>
-                  <li>menu.html</li>
-                  <li>information.html</li>
-                  <li>openinghours.html</li>
-                  <li>topbar.html</li>
-                  <li>footer.html</li>
-                </ul>
+          <p><b> Final list of files and folders: </b></p>
+          <p>1. HTML</p>
+              <ul>
+                <li>frontpage.html</li>
+                <li>menu.html</li>
+                <li>information.html</li>
+                <li>openinghours.html</li>
+                <li>topbar.html</li>
+                <li>footer.html</li>
+              </ul>
 
-              <p>2. Images</p>
-                <ul>
-                  <li>frontpage1.png</li>
-                  <li>frontpage2.png</li>
-                  <li>frontpage3.png</li>
-                  <li>frontpage4.png</li>
-                  <li>frontpage5.png</li>
-                  <li>favicon.png</li>
-                  <li>logo.png</li>
-                  <li>instagram.png</li>
-                  <li>facebook.png</li>
-                </ul>
+          <p>2. Images</p>
+              <ul>
+                <li>front_image1.png</li>
+                <li>front_image2.png</li>
+                <li>front_image3.png</li>
+                <li>front_image4.png</li>
+                <li>front_image5.png</li>
+                <li>favicon.png</li>
+                <li>logo.png</li>
+                <li>instagram.png</li>
+                <li>facebook.png</li>
+              </ul>
 
-              <p>3. Modularity</p>
-                <ul>
-                  <li>topbar.part</li>
-                  <li>course.part</li>
-                </ul>
+          <p>3. Modularity</p>
+              <ul>
+                <li>topbar.part</li>
+                <li>course.part</li>
+              </ul>
 
-              <p>4. Scripts</p>
-                <ul>
-                  <li>script.js</li>
-                </ul>
+          <p>4. Scripts</p>
+              <ul>
+                <li>script.js</li>
+              </ul>
 
-              <p>5. CSS</p>
-                <ul>
-                  <li>style.css</li>
-                  <li>topbarfooterstyle.css</li>
-                </ul>
-
-                  <br>
-              <p>Work Division and Deadlines:</p>
-                  <table>
-                    <tr>
-                      <th>Filename</th>
-                      <th>Description</th>
-                      <th>In charge</th>
-                      <th>Deadline</th>
-                    </tr>
-                    <tr>
-                      <td>frontpage.html</td>
-                      <td>The front page of the website</td>
-                      <td>Synne</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>menu.html</td>
-                      <td>The menu page that consist all the different food options</td>
-                      <td>Ola</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>information.html</td>
-                      <td>Information about the café and the contact information.</td>
-                      <td>Jasmina</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>openinghours.html</td>
-                      <td>Opening hours and a map</td>
-                      <td>Hans</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>frontpage1.png</td>
-                      <td>Image shown on the front page</td>
-                      <td>Ingrid</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>topbar.js</td>
-                      <td>Scaling the topbar menu when scrolling the page</td>
-                      <td>All</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>courses.js</td>
-                      <td>Each course should be an element that is repeated. Clicking on one course should bring the description of this course forward and slide the other courses further down on the page. Clicking again should bring the courses menu back to initial state.</td>
-                      <td>All</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>frontpage.js</td>
-                      <td>To define the behaviour of the front page</td>
-                      <td>All</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>information.js</td>
-                      <td>To be able to use one click to use google maps position and mail address</td>
-                      <td>Ingrid, Hans</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>course.part</td>
-                      <td>Course element should be standardized and reused for modularity. We do not know how to do modularity yet, but we saw the menu.part in the example delivery.</td>
-                      <td>All</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>topbar.part</td>
-                      <td></td>
-                      <td>All</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                    <tr>
-                      <td>style.css</td>
-                      <td>With sections for the different pages, corresponding to the design created in figma and the descriptions and requirements.</td>
-                      <td>All</td>
-                      <td>31.10.2019</td>
-                    </tr>
-                  </table>
-
-        </div>
-      <br>
-
-    <div class="box">
-      <header>
-          <h2>Updated Plan</h2>
-      </header>
-        <p>All of the files will be gathered inside a folder <i>project</i> which we will create later in the coding.</p>
-        <p> List of files and folders: </p>
-        <p>1. HTML</p>
-        <ul>
-          <li>frontpage.html</li>
-          <li>menu.html</li>
-          <li>information.html</li>
-          <li>openinghours.html</li>
-        </ul>
-
-        <p>2. Images</p>
-        <ul>
-          <li>frontpage1.png</li>
-          <li>information.png</li>
-          <li>menu1.png</li>
-          <li>menu2.png</li>
-          <li>navigationstructure.png</li>
-          <li>openinghours.png</li>
-        </ul>
-
-        <p>3. Modularity</p>
-        <ul>
-          <li>topbar.part</li>
-          <li>course.part</li>
-        </ul>
-
-        <p>4. Scripts</p>
-        <ul>
-          <li>topbar.js</li>
-          <li>courses.js</li>
-          <li>changingImages.js</li>
-          <li>information.js</li>
-          <li>frontpage.js</li>
-        </ul>
-
-        <p>5. CSS</p>
-        <ul>
-          <li>styling.css</li>
-        </ul>
+          <p>5. CSS</p>
+              <ul>
+                <li>style.css</li>
+                <li>topbarfooterstyle.css</li>
+              </ul>
 
         <br>
-        <p>Updated Work Division and Deadlines:</p>
+        <p><b>Final Work Division:</b></p>
         <table>
           <tr>
             <th>Filename</th>
             <th>Description</th>
             <th>In charge</th>
-            <th>Deadline</th>
           </tr>
           <tr>
             <td>frontpage.html</td>
             <td>The front page of the website</td>
             <td>Synne</td>
-            <td>31.10.2019</td>
           </tr>
           <tr>
             <td>menu.html</td>
             <td>The menu page that consist all the different food options</td>
             <td>Ola</td>
-            <td>31.10.2019</td>
           </tr>
           <tr>
             <td>information.html</td>
             <td>Information about the café and the contact information.</td>
             <td>Jasmina</td>
-            <td>31.10.2019</td>
           </tr>
           <tr>
             <td>openinghours.html</td>
             <td>Opening hours and a map</td>
             <td>Hans</td>
-            <td>31.10.2019</td>
           </tr>
           <tr>
-            <td>frontpage1.png</td>
-            <td>Image shown on the front page</td>
+            <td>topbar.html</td>
+            <td>The navigation bar at the top</td>
             <td>Ingrid</td>
-            <td>31.10.2019</td>
           </tr>
           <tr>
-            <td>topbar.js</td>
-            <td>Scaling the topbar menu when scrolling the page</td>
-            <td>All</td>
-            <td>31.10.2019</td>
+            <td>footer.html</td>
+            <td>The footer at the bottom of the page</td>
+            <td>Synne</td>
           </tr>
           <tr>
-            <td>courses.js</td>
-            <td>Each course should be an element that is repeated. Clicking on one course should bring the description of this course forward and slide the other courses further down on the page. Clicking again should bring the courses menu back to initial state.</td>
-            <td>All</td>
-            <td>31.10.2019</td>
+            <td>front_image1.png, front_image2.png, front_image3.png, front_image4.png, front_image5.png</td>
+            <td>Images shown on the front page</td>
+            <td>Ingrid</td>
           </tr>
           <tr>
-            <td>frontpage.js</td>
-            <td>To define the behaviour of the front page</td>
-            <td>All</td>
-            <td>31.10.2019</td>
+            <td>favicon.png</td>
+            <td>The favicon on top of the page(new tab alongside the title</td>
+            <td>Synne</td>
           </tr>
           <tr>
-            <td>information.js</td>
-            <td>To be able to use one click to use google maps position and mail address</td>
-            <td>Ingrid, Hans</td>
-            <td>31.10.2019</td>
+            <td>logo.png</td>
+            <td>Image of the logo which will be in the navigation bar</td>
+            <td>Ingrid</td>
+          </tr>
+          <tr>
+            <td>instagram.png</td>
+            <td>Picture of instagram logo, which will be a button in the footer.</td>
+            <td>Synne</td>
+          </tr>
+          <tr>
+            <td>facebook.png</td>
+            <td>Picture of the facebook logo, which will be a button in the footer.</td>
+            <td>Synne</td>
           </tr>
           <tr>
             <td>course.part</td>
-            <td>Course element should be standardized and reused for modularity. We do not know how to do modularity yet, but we saw the menu.part in the example delivery.</td>
+            <td>Course element should be standardized and reused for modularity.</td>
             <td>All</td>
-            <td>31.10.2019</td>
           </tr>
           <tr>
             <td>topbar.part</td>
             <td></td>
             <td>All</td>
-            <td>31.10.2019</td>
+          </tr>
+          <tr>
+            <td>script.js</td>
+            <td>Contains all the javascript coding.</td>
+            <td>All</td>
           </tr>
           <tr>
             <td>style.css</td>
-            <td>With srections for the different pages, corresponding to the design created in figma and the descriptions and requirements.</td>
+            <td>With sections for the different pages, corresponding to the design created in figma and the descriptions and requirements.</td>
             <td>All</td>
-            <td>31.10.2019</td>
+          </tr>
+          <tr>
+            <td>topbarfooterstyle.css</td>
+            <td>Styling of the top bar and the footer.</td>
+            <td>All</td>
           </tr>
         </table>
     </div>
 
       <br>
     </section>
+    <footer><i>Ola Fiske, Ingrid Flatjord, Hans Edvard Hafskolt, Jasmina Elizabeth Naseri og Synne Fuglesang Sæther</i>
+    </footer>
+
+    <div id="footer-logo">
+    <img src="logo.png" alt="Café Saldo" height="50" width="60">
+    </div>
+
     </article>
   </body>
 </html>
