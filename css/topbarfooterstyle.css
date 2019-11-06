@@ -93,14 +93,16 @@ a:hover {
 
 }
 
+/* Har endret .button og #instagram, #facebook sånn at de står rett ved siden av hverandre */
 .buttons {
-  display: inline-block;
+  display: inline;
+  vertical-align: top;
+  padding-left: 8px;
 }
 
 #instagram, #facebook {
-  width: 10%;
-  height: 10%;
-
+  width: 28px;
+  height: 27px;
 }
 
 #kontakt {
