@@ -14,6 +14,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 /* meny */
@@ -40,4 +41,9 @@ a:visited {
 
 a:hover {
   color: #A0C693;
+}
+
+ul{
+  text-align: center;
+  list-style: none;
 }
