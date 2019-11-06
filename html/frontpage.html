@@ -5,22 +5,23 @@
     <title> Forside | Café Saldo</title>  
     <link rel="icon" href="../images/favicon.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/topbarfooterstyle.css">
+      <link rel="stylesheet" type="text/css" href="../css/inline-list.css">
+
   </head>
   <body>
-
+  <header>
       <nav>
-        <div class="topnav">
-          <ul class="main-topbar">
-            <li><a href="menu.html"> Meny </a></li>
-            <li><a href="openinghours.html"> Åpningstider </a></li>
-            <li><img src="../images/logo.png" class="logo" alt="logo"></li>
-            <li><a href="information.html"> Informasjon </a></li>
-            <li><a href="frontpage.html"> Forside </a></li>
+
+          <ul class="nav">
+              <li><a href= "menu.html"> Meny </a></li>
+              <li><a href="openinghours.html"> Åpningstider </a></li>
+              <li><img src="../images/logo.png" id="logo" alt="logo"></li>
+              <li><a href="information.html"> Informasjon </a></li>
+              <li><a href="frontpage.html"> Forside </a></li>
           </ul>
-        </div>
+
       </nav>
-    </header>        
+  </header>
     
     <div class="images">
           <img class="front_images" src="../images/front_image1.png" alt="Front image 1" style=width:100%>
@@ -31,5 +32,19 @@
         </div>
 
     <script src="../javascript/script.js"></script>
+
+      <script>
+          // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+          window.onscroll = function() {scrollFunction()};
+
+          function scrollFunction() {
+              if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+
+                  document.getElementById("logo").style.height = "60px"
+              } else {
+                  document.getElementById("logo").style.height = "120px"
+              }
+          }
+      </script>
   </body>
 </html>
