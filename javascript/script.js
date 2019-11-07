@@ -5,10 +5,8 @@ const navSlide = () => {
   const navLinks = document.querySelectorAll(".nav-links li")
 
   burger.addEventListener("click", () => {
-      //Toggle now
       nav.classList.toggle("nav-active")
 
-      //Adding a nice delay between each choise
       navLinks.forEach((link, index) => {
         if (link.style.animation) {
           link.style.animation = ""
