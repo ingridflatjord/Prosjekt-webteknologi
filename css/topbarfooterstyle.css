@@ -12,6 +12,7 @@ nav {
   min-height: 120px;
   background-color: #F2F2F2;
   font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 100;
 }
 
 .logo {
@@ -36,7 +37,7 @@ nav {
   text-decoration: none;
   font-size: 30px;
   font-family: 'Barlow Semi Condensed', sans-serif;
-  font-wight: 200;
+  font-wight: 100;
   margin: 10px 74px;
 }
 
