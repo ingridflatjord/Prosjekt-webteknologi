@@ -52,13 +52,14 @@ color: #A0C693;
 margin-top: 10px;
 background-color:rgba(196, 196, 196, 0.21);
 overflow: hidden;
-max-height: none;
+max-height: 200px;
 max-width: 560px;
 -webkit-transition: max-height 10s;
 -moz-transition: max-height 0.3s;
 -ms-transition: max-height 0.3s;
 -o-transition: max-height 0.3s;
-transition:
+transition: max-height 550ms;
+transition-timing-function: ease-in-out;
 }
 
 div.menuBar.collapsed {
