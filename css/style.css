@@ -18,6 +18,92 @@ h1 {
 }
 
 /* meny */
+.menu-toggle {
+  position: relative;
+  width: 560px;
+  height: 70px;
+  background: rgba(196, 196, 196, 0.21);
+}
+
+h1.Meny{
+width: 209px;
+height: 137px;
+font-family: "Barlow Semi Condensed";
+font-style: normal;
+font-weight: 300;
+font-size: 96px;
+line-height: 115px;
+color: #4B5E45;
+}
+
+li.retter{
+margin:0;
+position: relative;
+font-family: "Barlow Semi Condensed";
+font-style: normal;
+font-weight: 300;
+font-size: 100%;
+line-height: 1.6;
+text-align:left;
+color: #A0C693;
+}
+
+.menuBar {
+margin-top: 10px;
+background-color:rgba(196, 196, 196, 0.21);
+overflow: hidden;
+max-height: none;
+max-width: 560px;
+-webkit-transition: max-height 10s;
+-moz-transition: max-height 0.3s;
+-ms-transition: max-height 0.3s;
+-o-transition: max-height 0.3s;
+transition:
+}
+
+div.menuBar.collapsed {
+max-height: 0;
+}
+
+ul.menuList {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+div.menuBar li a {
+display: block;
+line-height: 40px;
+padding: 0 20px;
+text-decoration: none;
+color: #373737;
+}
+div.menuBar li a:hover {
+background-color: #eee;
+}
+
+
+ul.menuList {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none}
+ul.menuList li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "}
+ul.menuList span:first-child {
+    padding-right: 0.33em;
+    }
+ul.menuList span + span {
+    float: right;
+    padding-left: 0.33em;
+  }
+
 
 /* informasjon */
 #text {
