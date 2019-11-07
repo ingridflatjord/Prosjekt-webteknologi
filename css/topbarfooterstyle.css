@@ -64,7 +64,6 @@ header {
 
 
 /*footer stick to the bottom*/
-
 footer {
   background-color: rgba(196, 196, 196, 0.21);
   font-family: 'Barlow Semi Condensed', Arial, sans-serif;
@@ -85,7 +84,7 @@ footer {
   bottom: 25%;
 }
 
-/* kontaktinfo i footer*/
+/*kontaktinfo i footer*/
 #kontakt {
   display: inline-block;
   position: absolute;
@@ -101,7 +100,7 @@ a:hover {
   color: #A0C693;
 }
 
-/* social media icons i footer*/
+/*social media ikoner i footer*/
 .buttons {
   display: inline;
   vertical-align: top;
