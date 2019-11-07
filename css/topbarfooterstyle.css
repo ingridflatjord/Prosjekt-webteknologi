@@ -78,7 +78,7 @@ nav {
       transform: translateX(100%);
       transition: transform 0.5s ease-in;
     }
-    .navlinks li {
+    .nav-links li {
       opacity: 0;
     }
 
