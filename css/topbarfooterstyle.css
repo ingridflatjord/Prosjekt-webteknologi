@@ -62,17 +62,8 @@ header {
   to {opacity: 1}
 }
 
-/* forside */
-.buttons {
-  display: inline;
-}
 
-#instagram, #facebook {
-  width: 2%;
-  height: 2%;
-}
-
-/*footer*/
+/*footer stick to the bottom*/
 
 footer {
   background-color: rgba(196, 196, 196, 0.21);
@@ -82,8 +73,24 @@ footer {
   width: 100%;
   height: 20%;
 
-  padding: 30px 40px;
+  position: absolute;
+  bottom: 0;
+}
 
+/*åpningstider i footer*/
+#apningstider_footer {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  bottom: 25%;
+}
+
+/* kontaktinfo i footer*/
+#kontakt {
+  display: inline-block;
+  position: absolute;
+  left: 10%;
+  bottom: 25%;
 }
 
 a:link, a:visited {
@@ -94,23 +101,24 @@ a:hover {
   color: #A0C693;
 }
 
-#apningstider_footer {
-  display: inline-block;
-
-}
-
-/* Har endret .button og #instagram, #facebook sånn at de står rett ved siden av hverandre */
+/* social media icons i footer*/
 .buttons {
   display: inline;
   vertical-align: top;
-  padding-left: 8px;
 }
 
-#instagram, #facebook {
+#instagram {
+  position: absolute;
+  left: 10%;
+  bottom: 70%;
   width: 28px;
   height: 27px;
 }
 
-#kontakt {
-  display: inline-block;
+#facebook {
+  position: absolute;
+  left: 12.5%;
+  bottom: 70%;
+  width: 28px;
+  height: 27px;
 }
