@@ -72,8 +72,7 @@ footer {
   width: 100%;
   height: 20%;
 
-  position: absolute;
-  bottom: 0;
+  padding: 30px 40px;
 }
 
 /*åpningstider i footer*/
