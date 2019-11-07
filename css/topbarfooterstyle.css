@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  position: sticky;
+body{
+  position: relative;
+}
+
+header {
+  background-color: #fff;
+  background-size: cover;
+}
+
+.topbar {
   width: 100%;
-  min-height: 120px;
-  background-color: #F2F2F2;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  font-weight: 100;
+  margin: 0 auto;
+  position: sticky;
 }
 
 .logo {
@@ -22,91 +26,30 @@ nav {
   vertical-align: middle;
 }
 
-.nav-links {
+.main-topbar{
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+}
+/* .main-topbar {
+  margin-top: 0px;
+  background: rgba(196, 196, 196, 0.21)
 }
 
-.nav-links li {
+.main-topbar li {
+  display: inline-block;
   list-style: none;
+  margin-left: 34px;
 }
 
-.nav-links a {
+.main-topbar li a {
   color: #4B5E45;
   text-decoration: none;
   font-size: 30px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-  font-wight: 100;
-  margin: 10px 74px;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
-}
-
-.burger {
-  display: none;
-  cursor: pointer;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: #4B5E45;
-  margin: 5px;
-}
-
-/*@media screen and (max-width: 1024px) {
-  .nav-links {
-    width: 60%;
-  }
-}*/
-
-@media screen and (max-width: 1024px) {
-    body {
-      overflow-x: hidden;
-    }
-    .nav-links {
-      position: absolute;
-      right: 0px;
-      height: 92vh;;
-      top: 8vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 40%;
-      background-color: #F2F2F2;
-      transform: translateX(100%);
-      transition: transform 0.5s ease-in;
-    }
-    .nav-links li {
-      opacity: 0;
-    }
-
-    .nav-links li:nth-child(3) {
-      display: none;
-    }
-
-    .burger {
-      display: block;
-    }
-  }
-
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-}
+  font-family: 'Barlow Semi Condensed', Arial;
+  margin: 10px 0%;
+} */
 
 .front_images {
   display: none;
@@ -138,8 +81,6 @@ footer {
 
   width: 100%;
   height: 20%;
-  position: absolute;
-  bottom: 0;
 
   padding: 30px 40px;
 
@@ -155,14 +96,14 @@ a:hover {
 
 #apningstider_footer {
   display: inline-block;
-  padding-left: 40%;
+
 }
 
 /* Har endret .button og #instagram, #facebook sånn at de står rett ved siden av hverandre */
 .buttons {
   display: inline;
   vertical-align: top;
-  padding-left: 10px;
+  padding-left: 8px;
 }
 
 #instagram, #facebook {
@@ -172,7 +113,4 @@ a:hover {
 
 #kontakt {
   display: inline-block;
-  position: absolute;
-  left: 10%;
-  bottom: 25%;
 }
