@@ -12,12 +12,12 @@
   <header>
       <nav>
 
-          <ul class="nav">
-              <li><a href= "menu.html"> Meny </a></li>
-              <li><a href="openinghours.html"> Åpningstider </a></li>
-              <li><img src="../images/logo.png" id="logo" alt="logo"></li>
-              <li><a href="information.html"> Informasjon </a></li>
-              <li><a href="frontpage.html"> Forside </a></li>
+          <ul id="nav">
+              <li class="menuItem"><a href= "menu.html"> Meny </a></li>
+              <li class="menuItem"><a href="openinghours.html"> Åpningstider </a></li>
+              <li class="menuItem"><img src="../images/logo.png" id="logo" alt="logo"></li>
+              <li class="menuItem"><a href="information.html"> Informasjon </a></li>
+              <li class="menuItem"><a href="frontpage.html"> Forside </a></li>
           </ul>
 
       </nav>
@@ -31,18 +31,34 @@
           <img class="front_images" src="../images/front_image5.png" alt="Front image 5" style=width:100%>
         </div>
 
+
+
     <script src="../javascript/script.js"></script>
 
       <script>
           // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
           window.onscroll = function() {scrollFunction()};
+          var small = "20px";
+          var large = "30px";
+          var NavBarElements = document.getElementsByClassName("menuItem");
 
           function scrollFunction() {
               if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 
+
+                  for (var i = 0; i < NavBarElements.length; i++) {
+                      NavBarElements[i].style.fontSize = small;
+                  }
                   document.getElementById("logo").style.height = "60px"
               } else {
+
+                  for (var i = 0, max = NavBarElements.length; i < max; i++) {
+                      NavBarElements[i].style.fontSize = large;
+                  }
                   document.getElementById("logo").style.height = "120px"
+
+
+
               }
           }
       </script>

@@ -19,7 +19,7 @@ h1 {
     text-align: center;
 }
 
-.nav {
+#nav {
     overflow: hidden;
     background-color: #F3F3F3;/*rgba(196, 196, 196, 0.21) ;*/
     width: 100%;
@@ -29,6 +29,7 @@ h1 {
     text-align: center;
     position: fixed; /* Sticky/fixed navbar */
     top: 0; /* At the top */
+
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
 
 }
@@ -40,14 +41,19 @@ h1 {
     transition: 0.4s;
 
 }
-
-.nav li{
+#navbar{
     display: inline-block;
     font-size: 30px;
+    transition: 0.4s;
+}
+
+#nav li{
+    display: inline-block;
+
 
 }
 
-.nav a {
+#nav a {
     vertical-align: middle;
     color: #4B5E45;
     display: inline-block;
@@ -55,9 +61,10 @@ h1 {
     text-decoration: none;
 
 }
-.nav a:hover{
+#nav a:hover{
     background-color: #4B5E45;
 }
+
 
 
 /* Create a sticky/fixed navbar */
@@ -70,4 +77,8 @@ h1 {
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
+}
+
+.images {
+    margin-top: 200px;
 }
