@@ -64,31 +64,42 @@ header {
 
 
 /*footer stick to the bottom*/
-footer {
-  background-color: rgba(196, 196, 196, 0.21);
+
+
+#footer {
+  background-color: #F1F1F1;
   font-family: 'Barlow Semi Condensed', Arial, sans-serif;
   color: #4B5E45;
-
+  height: 150px;
   width: 100%;
-  height: 20%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
 
-  padding: 30px 40px;
+}
+
+#footer>div {
+  margin:1rem 10%;
+}
+
+#footer>div>div {
+  display:flex;
+
 }
 
 /*åpningstider i footer*/
 #apningstider_footer {
   display: inline-block;
-  position: absolute;
-  left: 50%;
-  bottom: 25%;
+  position: sticky;
+  margin-top: 22px!important;
+
 }
 
 /*kontaktinfo i footer*/
 #kontakt {
   display: inline-block;
-  position: absolute;
-  left: 10%;
-  bottom: 25%;
+  margin-top: 40px!important;
 }
 
 a:link, a:visited {
@@ -102,21 +113,22 @@ a:hover {
 /*social media ikoner i footer*/
 .buttons {
   display: inline;
-  vertical-align: top;
 }
 
 #instagram {
-  position: absolute;
-  left: 10%;
+  position:absolute;
+  left: 9.5%;
   bottom: 70%;
   width: 28px;
   height: 27px;
+  margin:5px;
 }
 
 #facebook {
-  position: absolute;
-  left: 12.5%;
+  position:absolute;
+  left: 12%;
   bottom: 70%;
   width: 28px;
   height: 27px;
+  margin: 5px;
 }
