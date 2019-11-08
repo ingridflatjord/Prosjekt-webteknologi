@@ -1,4 +1,89 @@
 /* Meny */
+
+const coursesK ={
+  Kylling:{
+          Course:"Kyllingsalat",
+              Price:59,
+  },
+  Laks:{
+      Course:"Laksewrap",
+      Price:49,
+  },
+  Skinke:{
+        Course:"Skinkesandwich",
+        Price:45,
+  },
+
+}
+
+const coursesV ={
+  Avocado:{
+          Course:"Avocadotoast",
+          Price:59,
+  },
+  bowl:{
+      Course:"Smoothiebowl",
+      Price:49,
+  },
+  Falaf:{
+        Course:"Falafel",
+        Price:45,
+  },
+
+}
+
+const coursesD ={
+  coffe:{
+          Course:"Kaffe",
+          Price:59,
+  },
+  juice:{
+      Course:"Ferskpresset Appelsinjuice",
+      Price:49,
+  },
+  Smoth:{
+        Course:"Smoothie",
+        Price:45,
+  },
+
+}
+
+var targetElement = document.getElementById('meat')
+
+for (courseX in coursesK) {
+  createCourselik(coursesK[courseX])
+  console.log(coursesK[courseX])
+}
+
+var targetElement = document.getElementById('vegetarian')
+
+for (courseX in coursesV) {
+  createCourselik(coursesV[courseX])
+  console.log(coursesV[courseX])
+}
+var targetElement = document.getElementById('drinks')
+
+for (courseX in coursesD) {
+  createCourselik(coursesD[courseX])
+  console.log(coursesD[courseX])
+}
+
+function createCourselik(course) {
+  node = document.createElement("li")
+  node.setAttribute("class","retter")
+  span = document.createElement("span")
+  span.setAttribute("class","retter")
+  node.appendChild(span)
+  span.appendChild(document.createTextNode(course.Course))
+  span2 = document.createElement("span")
+  span2.setAttribute("class","retter")
+  span2.appendChild(document.createTextNode(course.Price))
+  node.appendChild(span2)
+  targetElement.appendChild(node)
+
+}
+
+
 /* Kjøttretter */
 // Set variables for key elements
 const menuDiv = document.getElementById('menuDiv');
