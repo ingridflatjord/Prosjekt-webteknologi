@@ -23,6 +23,9 @@ const footer = document.getElementById('footer')
 
 function lagFooter() {
     const footerElementer =
+
+    '<div id="kontakt">'+
+    '<div>'+
     '<form class="buttons" action="https://www.instagram.com/cafesaldo/">' +
         '<input id="instagram" type="image" src="../images/instagram.png" alt="Instagram">' +
     '</form>' +
@@ -30,12 +33,15 @@ function lagFooter() {
     '<form class="buttons" action="https://www.facebook.com/">' +
       '<input id="facebook" type="image" src="../images/facebook.png" alt="Facebook">' +
     '</form>' +
+    '</div>'+
 
-    '<div id="kontakt">'+
       '<p><b><u>Kontakt</u></b></p>'+
       '<p id="tlf"> Tlf: <a href="tel:97969924">97969924</a></p>'+
       '<p id="mail"> Mail: <a href="mailto:cafesaldotrondheim@gmail.com">cafesaldotrondheim@gmail.com</a></p>'+
     '</div>'+
+
+
+    '<div>'+
 
     '<ul id="apningstider_footer" style="list-style:none;">'+
       '<li><b><u>Åpningstider</u></b></li>'+
@@ -43,6 +49,7 @@ function lagFooter() {
       '<li>Lørdag: <b>10.00 - 15.00</b></li>'+
       '<li>Søndag: <b>Stengt</b></li>'+
     '</ul>'+
+    '</div>'+
 
     '</footer>'
 
