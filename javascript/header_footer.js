@@ -75,15 +75,15 @@ footer.innerHTML = lagFooter()
 const coursesK ={
     Kylling:{
         Course:"Kyllingsalat",
-        Price:59,
+        Price:"59 Kr",
     },
     Laks:{
         Course:"Laksewrap",
-        Price:49,
+        Price:"49 Kr",
     },
     Skinke:{
         Course:"Skinkesandwich",
-        Price:45,
+        Price:"45 Kr",
     },
 
 }
@@ -91,15 +91,15 @@ const coursesK ={
 const coursesV ={
     Avocado:{
         Course:"Avocadotoast",
-        Price:59,
+        Price:"49 Kr",
     },
     bowl:{
         Course:"Smoothiebowl",
-        Price:49,
+        Price:"45 Kr",
     },
     Falaf:{
         Course:"Falafel",
-        Price:45,
+        Price:"45 Kr",
     },
 
 }
@@ -107,15 +107,15 @@ const coursesV ={
 const coursesD ={
     coffe:{
         Course:"Kaffe",
-        Price:59,
+        Price:"29 Kr",
     },
     juice:{
         Course:"Ferskpresset Appelsinjuice",
-        Price:49,
+        Price:"25 Kr",
     },
     Smoth:{
         Course:"Smoothie",
-        Price:45,
+        Price:"45 Kr",
     },
 
 }
