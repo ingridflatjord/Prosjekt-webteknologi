@@ -124,9 +124,8 @@ ul.menuList span + span {
   line-height: 38px;
   width: 80%;
   margin: auto;
-  align-items: center;
-
   color: #4B5E45;
+  text-align: center;
 }
 
 a:link {
