@@ -19,13 +19,25 @@ h1 {
 
 /* meny */
 .menu-toggle {
-  position: relative;
-  width: 560px;
+  display: block;
+  margin: auto;
+  font-family: 'Barlow Semi Condensed', Arial, sans-serif;
+  color:#4B5E45;
+  margin-top: 10px;
+  width: 60%;
   height: 70px;
   background: rgba(196, 196, 196, 0.21);
 }
 
+.wrapper{
+  margin: auto;
+  margin-left: -10%;
+}
+
+
+
 h1.Meny{
+position: relative;
 width: 209px;
 height: 137px;
 font-family: "Barlow Semi Condensed";
@@ -49,7 +61,10 @@ color: #A0C693;
 }
 
 .menuBar {
+margin: auto;
+width: 100%;
 margin-top: 10px;
+background: rgba(196, 196, 196, 0.21);
 background-color:rgba(196, 196, 196, 0.21);
 overflow: hidden;
 max-height: 200px;
@@ -93,10 +108,10 @@ ul.menuList li:before {
     width: 0;
     white-space: nowrap;
     content:
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "
- ". . . . . . . . . . . . . . . . . . . . "}
+ ". . . . . . . . . . . . . . . . ."
+ ". . . . . . . . . . . . . . . . ."
+ ". . . . . . . . . . . . . . . . ."
+ ". . . . . . . . . . . . . . . . ."}
 ul.menuList span:first-child {
     padding-right: 0.33em;
     }
@@ -104,7 +119,7 @@ ul.menuList span + span {
     float: right;
     padding-left: 0.33em;
   }
-
+  
 
 /* informasjon */
 #text {
