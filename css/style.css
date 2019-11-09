@@ -29,12 +29,6 @@ h1 {
   background: rgba(196, 196, 196, 0.21);
 }
 
-.wrapper{
-  margin: auto;
-  margin-left: -10%;
-}
-
-
 
 h1.Meny{
 position: relative;
@@ -147,4 +141,13 @@ a:hover {
 
 ul{
   list-style: none;
+}
+
+.wrapper {
+  min-height: 95vh;
+  position: relative;
+}
+
+#map{
+  padding-bottom: 300px;
 }
