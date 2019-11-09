@@ -18,13 +18,19 @@ body {
   height: 9rem;
   background-color: #F2F2F2;
   position: sticky;
+  font-size: 30px;
+  transition: 0.4s;
+  text-align: center;
+  vertical-align: center;
+  horiz-align: center;
+
 }
 .main_navbar ul {
   width: calc(100% - 200px);
   height: 100%;
   display: flex;
   /*flex-direction: row;*/
-  justify-content: space-between;
+
   align-items: center;
   list-style: none;
   margin: 0 65px;
@@ -40,11 +46,11 @@ body {
   float: left;
   display: flex;
   justify-content: center;
+
 }
 
 .main_navbar ul li a {
   color: #4B5E45;
-  font-size: 30px;
   font-family: 'Barlow Semi Condensed', Arial, sans-serif;
   font-weight: 100;
   text-decoration: none;
@@ -57,8 +63,7 @@ body {
 }
 
 .main_navbar>a img {
-  position: absolute;
-  left: 41%;
+  position: relative;
   height: 120px;
   width: auto;
   margin-top: 2px;

@@ -3,12 +3,13 @@ const header = document.getElementById('header')
 function lagNav() {
   const headerElementer=
   `<div class ="main_navbar" id="navigationbar">
-      <a href=""><img src="../images/logo.png" class="logo" alt="logo"></a>
+      
       <ul>
-        <li><a href="menu.html"> Meny </a></li>
-        <li><a href="openinghours.html"> Åpningstider </a></li>
-        <li><a href="information.html"> Informasjon </a></li>
-        <li><a href="frontpage.html"> Forside </a></li>
+        <li ><a href="menu.html"> Meny </a></li>
+        <li ><a href="openinghours.html"> Åpningstider </a></li>
+        <li class="main_navbar"><a href="frontpage.html"><img src="../images/logo.png" class="logo" alt="logo"> </li>
+        <li ><a href="information.html"> Informasjon </a></li>
+        <li ><a href="frontpage.html"> Forside </a></li>
       </ul>
       <a class="burger" href="javascript:void(0)" onclick="changeNavbar()">&#9776;</a>
   </div>`
@@ -70,3 +71,34 @@ function lagFooter() {
 }
 
 footer.innerHTML = lagFooter()
+
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+var small = "20px";
+var large = "30px";
+var NavBarElements = document.getElementsByClassName("main_navbar");
+
+function scrollFunction() {
+    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 50) {
+
+
+        for (var i = 0; i < NavBarElements.length; i++) {
+            NavBarElements[i].style.fontSize = small;
+            NavBarElements[i].style.height = "6rem"
+        }
+        document.getElementsByClassName("main_navbar").style.height = "6rem"
+    } else {
+
+        for (var i = 0, max = NavBarElements.length; i < max; i++) {
+            NavBarElements[i].style.fontSize = large;
+            NavBarElements[i].style.height = "9rem"
+
+
+
+        }
+        document.getElementById("main_navbar").style.height = "9rem"
+
+
+
+    }
+}
