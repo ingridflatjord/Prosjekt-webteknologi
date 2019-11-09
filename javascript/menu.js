@@ -1,5 +1,4 @@
 /* Meny */
-
 const coursesK ={
   Kylling:{
           Course:"Kyllingsalat",
@@ -49,7 +48,6 @@ const coursesD ={
 }
 
 var targetElement = document.getElementById('meat')
-
 for (courseX in coursesK) {
   createCourselik(coursesK[courseX])
   console.log(coursesK[courseX])
@@ -83,7 +81,6 @@ function createCourselik(course) {
 
 }
 
-
 /* Kjøttretter */
 // Set variables for key elements
 const menuDiv = document.getElementById('menuDiv');
@@ -96,7 +93,6 @@ menuDiv.classList.add('collapsed');
 function mainmenuToggle() {
     menuDiv.classList.toggle('collapsed');
 }
-
 
 // Add a click event to run the mainmenuToggle function
 menuToggle.addEventListener('click', mainmenuToggle);
