@@ -1,9 +1,9 @@
 // Naviagtion bar
-const header = document.getElementById('header')
+const header = document.getElementById('header');
+
 function lagNav() {
-  const headerElementer=
-  `<div class ="main_navbar" id="navigationbar">
-      <a href=""><img src="../images/logo.png" class="logo" alt="logo"></a>
+    return `<div class ="topnav" id="header">
+      <a href=""frontpage.html"><img src="../images/logo.png" class="logo" alt="logo"></a>
       <ul>
         <li><a href="menu.html"> Meny </a></li>
         <li><a href="openinghours.html"> Åpningstider </a></li>
@@ -12,26 +12,23 @@ function lagNav() {
       </ul>
       <a class="burger" href="javascript:void(0)" onclick="changeNavbar()">&#9776;</a>
   </div>`
-
-  return headerElementer
 }
 
 header.innerHTML = lagNav();
 
 //When the burger are pressed, a drop-down menu will show.
 function changeNavbar() {
-  const header = document.getElementById("navigationbar")
-  console.log("heiii");
+    const header = document.querySelector(".topnav");
+    console.log("heiii");
 
-  if (header.className === "main_navbar") {
-    header.className += " responsive"
-  } else {
-    header.className = "main_navbar"
-  }
+    if (header.className === "topnav") {
+        header.className += " responsive"
+    } else {
+        header.className = "topnav"
+    }
 }
 
-
-
+// Footer
 const footer = document.getElementById('footer')
 
 function lagFooter() {
