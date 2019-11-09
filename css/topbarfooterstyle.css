@@ -88,13 +88,29 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 }
 
+/* Front images (slideshow) on the frontpage*/
+.images {
+  z-index: -1;
+}
+
+.front_images {
+  padding-top: 144px;
+  display: none;
+  animation-name: front_images;
+  animation-duration: 3s;
+}
+
+@keyframes front_images {
+  from {opacity: 0.5}
+  to {opacity: 1}
+}
+
+
+
 /*footer stick to the bottom*/
-
-
 
 #footer {
   background-color: #F1F1F1;
