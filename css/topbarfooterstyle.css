@@ -135,15 +135,6 @@ body {
 
 }
 
-/*åpningstider i footer*/
-#apningstider_footer {
-  display: inline-block;
-  position: sticky;
-  margin-top: 47px!important;
-    margin-right: 80px;
-
-}
-
 /*kontaktinfo i footer*/
 #kontakt {
   display: inline-block;
