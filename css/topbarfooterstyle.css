@@ -72,9 +72,10 @@ body {
     .topnav ul li {
         display: none;
     }
-    .topnav.responsive ul {
+/*    .topnav.responsive ul {
       margin-top: 140px;
-    }
+    }*/
+    
     .topnav.responsive ul li {
         float: none;
         display: block;
