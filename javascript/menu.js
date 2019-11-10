@@ -1,83 +1,83 @@
 /* Meny */
 const coursesK ={
-  Kylling:{
-          Course:"Kyllingsalat",
-              Price:59,
-  },
-  Laks:{
-      Course:"Laksewrap",
-      Price:49,
-  },
-  Skinke:{
+    Kylling:{
+        Course:"Kyllingsalat",
+        Price:"59 Kr",
+    },
+    Laks:{
+        Course:"Laksewrap",
+        Price:"49 Kr",
+    },
+    Skinke:{
         Course:"Skinkesandwich",
-        Price:45,
-  },
+        Price:"45 Kr",
+    },
 
 }
 
 const coursesV ={
-  Avocado:{
-          Course:"Avocadotoast",
-          Price:59,
-  },
-  bowl:{
-      Course:"Smoothiebowl",
-      Price:49,
-  },
-  Falaf:{
+    Avocado:{
+        Course:"Avocadotoast",
+        Price:"49 Kr",
+    },
+    bowl:{
+        Course:"Smoothiebowl",
+        Price:"45 Kr",
+    },
+    Falaf:{
         Course:"Falafel",
-        Price:45,
-  },
+        Price:"45 Kr",
+    },
 
 }
 
 const coursesD ={
-  coffe:{
-          Course:"Kaffe",
-          Price:59,
-  },
-  juice:{
-      Course:"Appelsinjuice",
-      Price:49,
-  },
-  Smoth:{
+    coffe:{
+        Course:"Kaffe",
+        Price:"29 Kr",
+    },
+    juice:{
+        Course:"Appelsinjuice",
+        Price:"25 Kr",
+    },
+    Smoth:{
         Course:"Smoothie",
-        Price:45,
-  },
+        Price:"45 Kr",
+    },
 
 }
 
 var targetElement = document.getElementById('meat')
 for (courseX in coursesK) {
-  createCourselik(coursesK[courseX])
-  console.log(coursesK[courseX])
+    createCourselik(coursesK[courseX])
+    console.log(coursesK[courseX])
 }
 
 var targetElement = document.getElementById('vegetarian')
 
 for (courseX in coursesV) {
-  createCourselik(coursesV[courseX])
-  console.log(coursesV[courseX])
+    createCourselik(coursesV[courseX])
+    console.log(coursesV[courseX])
 }
 var targetElement = document.getElementById('drinks')
 
 for (courseX in coursesD) {
-  createCourselik(coursesD[courseX])
-  console.log(coursesD[courseX])
+    createCourselik(coursesD[courseX])
+    console.log(coursesD[courseX])
 }
 
 function createCourselik(course) {
-  node = document.createElement("li")
-  node.setAttribute("class","retter")
-  span = document.createElement("span")
-  span.setAttribute("class","retter")
-  node.appendChild(span)
-  span.appendChild(document.createTextNode(course.Course))
-  span2 = document.createElement("span")
-  span2.setAttribute("class","retter")
-  span2.appendChild(document.createTextNode(course.Price))
-  node.appendChild(span2)
-  targetElement.appendChild(node)
+    node = document.createElement("li")
+    node.setAttribute("class","retter")
+    span = document.createElement("span")
+    span.setAttribute("class","retter")
+    node.appendChild(span)
+    span.appendChild(document.createTextNode(course.Course))
+    span2 = document.createElement("span")
+    span2.setAttribute("class","retter")
+    span2.appendChild(document.createTextNode(course.Price))
+    node.appendChild(span2)
+    targetElement.appendChild(node)
 
 }
 
