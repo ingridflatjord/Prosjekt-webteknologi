@@ -19,10 +19,15 @@ h1 {
 }
 
 /* meny */
+.Menubox{
+  margin-bottom: 5%;
+}
+
 .menu-toggle {
   display: block;
   margin: auto;
   font-family: 'Barlow Semi Condensed', Arial, sans-serif;
+  font-weight: 250;
   font-size: 200%;
   color:#4B5E45;
   margin-top: 10px;
@@ -112,6 +117,7 @@ ul.menuList span + span {
     padding-left: 0.33em;
     margin-left: 1em;
   }
+
 
 /* informasjon */
 #text {
