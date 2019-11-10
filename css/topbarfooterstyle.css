@@ -140,13 +140,17 @@ body {
   display: inline-block;
   position: sticky;
   margin-top: 47px!important;
+    margin-right: 10px;
 
 }
 
 /*kontaktinfo i footer*/
 #kontakt {
   display: inline-block;
-  margin-top: 30px!important;
+    position: sticky;
+
+  margin-top: 15px!important;
+
 }
 
 a:link, a:visited {
@@ -163,19 +167,16 @@ a:hover {
 }
 
 #instagram {
-  position:relative;
-  left: 9.5%;
-  bottom: 70%;
+  position: relative;
   width: 28px;
   height: 27px;
-  margin:5px;
+    top: 5px;
 }
 
 #facebook {
-  position:relative;
-  left: 12%;
-  bottom: 70%;
+  position: relative;
   width: 28px;
   height: 27px;
-  margin: 5px;
+    top: 4px;
+
 }

@@ -33,13 +33,15 @@ const footer = document.getElementById('footer')
 
 function lagFooter() {
     const footerElementer =
-    `<form class="buttons" action="https://www.instagram.com/cafesaldo/">
-        <input id="instagram" type="image" src="../images/instagram.png" alt="Instagram">
-    </form>
-    <form class="buttons" action="https://www.facebook.com/">
-      <input id="facebook" type="image" src="../images/facebook.png" alt="Facebook">
-    </form>
+        `
+     
     <div id="kontakt">
+        <form class="buttons" action="https://www.instagram.com/cafesaldo/">
+            <input id="instagram" type="image" src="../images/instagram.png" alt="Instagram">
+        </form>
+        <form class="buttons" action="https://www.facebook.com/">
+          <input id="facebook" type="image" src="../images/facebook.png" alt="Facebook">
+        </form>
       <p><b><u>Kontakt</u></b></p>
       <p id="tlf"> Tlf: <a href="tel:97969924">97969924</a></p>
       <p id="mail"> Mail: <a href="mailto:cafesaldotrondheim@gmail.com">cafesaldotrondheim@gmail.com</a></p>
