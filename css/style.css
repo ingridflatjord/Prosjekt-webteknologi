@@ -10,7 +10,7 @@ body {
 
 h1 {
   font-weight: 300;
-  font-size: 95px;
+  font-size: 70px;
   color: #4B5E45;  
   line-height: 115px;
   text-align: center;
@@ -130,9 +130,11 @@ ul.menuList span + span {
   font-size: 32px;
   line-height: 38px;
   width: 80%;
-  margin: auto;
+  margin-left: 10%;
+    margin-right: 10%;
   color: #4B5E45;
   text-align: center;
+
 }
 
 a:link {
@@ -159,5 +161,7 @@ ul{
 
 #map{
   padding-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
