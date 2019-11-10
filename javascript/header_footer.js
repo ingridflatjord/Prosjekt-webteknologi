@@ -97,7 +97,7 @@ const coursesD ={
         Price:"29 Kr",
     },
     juice:{
-        Course:"Ferskpresset Appelsinjuice",
+        Course:"Appelsinjuice",
         Price:"25 Kr",
     },
     Smoth:{
