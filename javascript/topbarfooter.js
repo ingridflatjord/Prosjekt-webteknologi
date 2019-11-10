@@ -46,12 +46,7 @@ function lagFooter() {
       <p id="tlf"> Tlf: <a href="tel:97969924">97969924</a></p>
       <p id="mail"> Mail: <a href="mailto:cafesaldotrondheim@gmail.com">cafesaldotrondheim@gmail.com</a></p>
     </div>
-    <ul id="apningstider_footer" style="list-style:none;">
-      <li><b><u>Åpningstider</u></b></li>
-      <li>Mandag - Fredag: <b>08.30 - 17.00</b></li>
-      <li>Lørdag: <b>10.00 - 15.00</b></li>
-      <li>Søndag: <b>Stengt</b></li>
-    </ul>
+   
     </footer>`
 
     return footerElementer
