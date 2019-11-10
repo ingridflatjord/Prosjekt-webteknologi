@@ -25,6 +25,7 @@ h1 {
 }
 
 .menu-toggle {
+  outline:0;
   display: block;
   margin: auto;
   font-family: 'Barlow Semi Condensed', Arial, sans-serif;
