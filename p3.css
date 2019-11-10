@@ -1,7 +1,11 @@
+body {
+  background-color: #DDDDDD;
+}
+
 article {
   font-family: Georgia, Verdana, serif;
   font-size: 18px;
-  width: 80ch;
+  width: 50%;
   margin: auto;
 }
 
