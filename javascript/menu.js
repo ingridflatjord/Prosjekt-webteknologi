@@ -37,7 +37,7 @@ const coursesD ={
           Price:59,
   },
   juice:{
-      Course:"Ferskpresset Appelsinjuice",
+      Course:"Appelsinjuice",
       Price:49,
   },
   Smoth:{
