@@ -1,0 +1,35 @@
+body {
+  background-color: #DDDDDD;
+}
+
+article {
+  font-family: Georgia, Verdana, serif;
+  font-size: 18px;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.box {
+  border-style: groove;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#footer-logo {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid;
+  padding: 5px;
+}
