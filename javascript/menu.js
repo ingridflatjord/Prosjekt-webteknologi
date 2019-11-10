@@ -82,7 +82,7 @@ function createCourselik(course) {
 }
 
 
-/* Buttons to activate the CSS animation - code inspired from https://codepen.io/davidcochran/pen/RNOOEO */
+/* Buttons to activate the CSS animation - code sourced from: https://codepen.io/davidcochran/pen/RNOOEO */
 /* Kjøttretter */
 
 const menuDiv = document.getElementById('menuDiv');
