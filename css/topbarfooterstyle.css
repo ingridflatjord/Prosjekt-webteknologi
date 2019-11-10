@@ -32,7 +32,7 @@ body {
 .topnav ul {
     width: calc(100% - 200px);
     min-height: 9rem;
-    margin: 0 65px;
+    margin: 0 108px;
 }
 .topnav ul li:nth-child(2) {
     margin-right: 200px;
@@ -72,10 +72,12 @@ body {
     .topnav ul li {
         display: none;
     }
-/*    .topnav.responsive ul {
-      margin-top: 140px;
-    }*/
-    
+
+    .topnav.responsive ul {
+      margin-top: 144px;
+      padding-bottom: 30px;
+    }
+
     .topnav.responsive ul li {
         float: none;
         display: block;
@@ -91,7 +93,6 @@ body {
         align-items: center;
     }
 }
-
 /* Front images (slideshow) on the frontpage*/
 /*.images {
   z-index: -1;
