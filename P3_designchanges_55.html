@@ -38,34 +38,41 @@
       <header>
           <h2>3. Design Changes</h2>
       </header>
-        <p>We have done some changes, after both feedback from our supervisor, and some things we found out in the process of coding.</p>
+        <p>We have done some changes after careful consideration of feedback from our supervisor, along with some things we found out during the process of coding.</p>
 
-        <h4>Changes to frontpage.html</h4>
-        <p>Initially we did not think about having a footer with contact information and opening hours, but we got some inspiration from other websites and then we found out we wanted to have footer including this. It makes the site more user-friendly and nice. We removed the social media icons we had and put it in the footer. We made an own html page called footer.html. We did the same for the topbar, and called it topbar.html. We also included 5 pictures in the front page, instead of 3-4. Other than that, the front page is as similar to how we imagined it would be.</p>
+        <p><b>Changes to frontpage.html: </b>Initially we did not intend to have a footer with contact information, but we got some inspiration from other websites thus we agreed to include a footer. We have a footer on all of our pages, and we think it makes the site more user-friendly. We removed the social media icons we had on the frontpage and put it in the footer. We made an own JavaScript file including both the frontpage and the footer and linked it to the frontpage.html. We also included 5 pictures on the front page instead of 3-4. We also cropped the images on the frontpage to 2200 x 840px. Other than that, the front page is similar to how we imagined it would be.</p>
 
-        <h4>Changes to openinghours.html</h4>
-        <p>We centered the opening hours instead of having it on the same line as the map. </p>
+        <p><b>Changes to openinghours.html: </b> We centered the opening hours instead of having it on the same line as the map.</p>
 
-        <h4>Changes to course.part and topbar.part</h4>
+        <p><b>Changes to menu.html and information.html: </b>On menu.html, we changed "Ikke-vegetar" to "Kjøttretter". On the information.html, we centered all of the text.</p>
 
-        <h4>Changes to topbar.js, frontpage.js, courses.js, information.js</h4>
-        <p>We decided to make only one JavaScript file instead of several. We wanted to compile it into one file to have fewer HTTP requests. We wanted to make as few requests to the server to improve the performance of the page. We called the JavaScript file script.js.</p>
+        <p><b>Changes to course.part and topbar.part: </b>As we started the process with coding, we found out we did not need these files. Instead we made different Javascripts and linked it to the html pages. </p>
 
-        <h4>Changes to style.css</h4>
-        <p>We have one main css for the different pages, but we decided to make one external stylesheet for the topbar and footer. We thought this would make it a bit more organized and clean.</p>
+        <p><b>Changes to topbar.js, frontpage.js, courses.js, information.js: </b>We decided to make three JavaScript files instead of four. We made one for the frontpage, one for the menu and then one for both the topbar and footer. We did not need the last one called information.js, because there were no JavaScript needed (except topbar and footer) for that page. </p>
+
+        <p><b>Changes to style.css: </b>We have one main CSS for the different pages, but we decided to make one external stylesheet for the topbar and footer. We thought this would make it a bit more organized and clean.</p>
+        <p>As for the CSS styling of the pages, we did some changes: we have changed all of the h1-elements from 95px to 70px to fit both larger and smaller screens. We also changed the font size on "Informasjon" and "Åpningstider" to 32px. The buttons on the menu site is scaled to width:60% and height: 70px, instead of width:100%. When hovering over the e-mail and phone links, we wanted it to appear in the same color as the other links on the pages: #A0C693.</p>
 
         <h4>Additional</h4>
         <ul>
-          <li>We have added footer.html and topbar.html as mentioned above.</li>
-          <li>When discussing the top bar, we decided that when scaling the site, the original top bar should dissappear and a hamburger icon/button appears. The hamburger button includes the different alternatives on the top bar. Our logo will float to the left side of the page while the rest of the top bar goes inside the hamburger button.</li>
-          <li>We added some pictures for the front page called front_image1,2,3,4,5.png</li>
-          <li>Furthermore, we added a avocado favicon on our page, called favicon.png</li>
-          <li>We also added pictures of the logo and the social media buttons</li>
+          <li>We have added topbarfooter.js, as mentioned above.</li>
+          <li>When discussing the top bar, we decided that when scaling the site (less than 1024px), the original top bar dissappears and a hamburger icon/button appears. The hamburger button includes the different alternatives on the top bar. Our logo will float to the left side of the page, while the rest of the top bar goes inside the hamburger button. Our logo is also a button for the frontpage.</li>
+          <li>We added some pictures for the front page called front_image1,2,3,4,5.png.</li>
+          <li>Furthermore, we added a avocado favicon on our page called favicon.png.</li>
+          <li>We also added pictures of the logo on the topbar and the social media buttons inside the footer.</li>
         </ul>
-        <h4>Changes to JavaScript minimum requirements</h4>
-        <p>We had to change and add some JavaScript applications since the email-feature did not include JavaScript. We then decided to </p>
-    </div>
 
+        <h4>Changes to JavaScript and modularity requirements</h4>
+        <p>We had to change and add some JavaScript applications since the fourth JavaScript requirement, the email-feature, did not include JavaScript. Moreover, we then decided to include the hamburger icon as described above to make the site more user-friendly for all devices. We removed the requirement about the top bar being pinned to the top, and when the page scrolls down, its size changes. Instead we added the navigation bar and the footer to JavaScript for modularity.</p>
+        <p>Our JavaScript requirements is as mentioned below:</p>
+          <ol>
+            <li>The front page changes the background pictures every 5 seconds to highlight different pictures from the café and the navigation bar should always be visible at the top.</li>
+            <li>The different elements on the menu become visible if the menu-button is clicked. Each element corresponds to a category of courses. When the user clicks on a category element, courses from this category will be visible. Clicking on the same category will hide these.</li>
+            <li>A hamburger icon appears including the topbar when scaling the site, less than 1024px.</li>
+            <li>Topbar and footer made in JS for modularity, to not repeat the same code for each page.</li>
+          </ol>
+    </div>
+    
     <br>
 
     <div class="box">
@@ -97,15 +104,11 @@
                 <li>facebook.png</li>
               </ul>
 
-          <p>3. Modularity</p>
-              <ul>
-                <li>topbar.part</li>
-                <li>course.part</li>
-              </ul>
-
           <p>4. Scripts</p>
               <ul>
-                <li>script.js</li>
+                <li>frontpage.js</li>
+                <li>menu.js</li>
+                <li>topbarfooter.js</li>
               </ul>
 
           <p>5. CSS</p>
@@ -148,18 +151,13 @@
             <td>Ingrid</td>
           </tr>
           <tr>
-            <td>footer.html</td>
-            <td>The footer at the bottom of the page</td>
-            <td>Synne</td>
-          </tr>
-          <tr>
             <td>front_image1.png, front_image2.png, front_image3.png, front_image4.png, front_image5.png</td>
             <td>Images shown on the front page</td>
             <td>Ingrid</td>
           </tr>
           <tr>
             <td>favicon.png</td>
-            <td>The favicon on top of the page(new tab alongside the title</td>
+            <td>The favicon on top of the page(in a new tab alongside the title)</td>
             <td>Synne</td>
           </tr>
           <tr>
@@ -178,18 +176,18 @@
             <td>Synne</td>
           </tr>
           <tr>
-            <td>course.part</td>
-            <td>Course element should be standardized and reused for modularity.</td>
-            <td>All</td>
+            <td>frontpage.js</td>
+            <td>Contains the javascript coding for the frontpage.</td>
+            <td>Ingrid</td>
           </tr>
           <tr>
-            <td>topbar.part</td>
-            <td></td>
-            <td>All</td>
+            <td>menu.js</td>
+            <td>Contains the javascript coding for the menu.</td>
+            <td>Ola</td>
           </tr>
           <tr>
-            <td>script.js</td>
-            <td>Contains all the javascript coding.</td>
+            <td>topbarfooter.js</td>
+            <td>Contains the javascript for the topbar and the footer</td>
             <td>All</td>
           </tr>
           <tr>
@@ -211,7 +209,7 @@
     </footer>
 
     <div id="footer-logo">
-    <img src="logo.png" alt="Café Saldo" height="50" width="60">
+    <img src="../logo.png" alt="Café Saldo" height="50" width="60">
     </div>
 
     </article>
