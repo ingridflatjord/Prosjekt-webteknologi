@@ -3,7 +3,7 @@ const header = document.getElementById('header');
 
 function lagNav() {
     return `<div class ="topnav" id="header">
-      <a href=""frontpage.html"><img src="../images/logo.png" class="logo" alt="logo"></a>
+      <a href="frontpage.html"><img src="../images/logo.png" class="logo" alt="logo"></a>
       <ul>
         <li><a href="menu.html"> Meny </a></li>
         <li><a href="openinghours.html"> Åpningstider </a></li>
