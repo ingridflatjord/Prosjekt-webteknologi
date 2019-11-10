@@ -19,7 +19,6 @@ header.innerHTML = lagNav();
 //When the burger are pressed, a drop-down menu will show.
 function changeNavbar() {
     const header = document.querySelector(".topnav");
-    console.log("heiii");
 
     if (header.className === "topnav") {
         header.className += " responsive"
